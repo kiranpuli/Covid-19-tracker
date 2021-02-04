@@ -1,0 +1,31 @@
+:root {
+    --hex-cases:"#f0ad4e";
+    --rgba-cases:"rgb(240, 173, 78,0.5)";
+    --hex-recovered:"#5cb85c";
+    --rgba-recovered:"rgb(92, 184, 92,0.5)";
+    --hex-deaths:"#d9534f";
+    --rgba-deaths:"rgb(217, 83, 79,0.5)";
+}
+  
+
+.info-cards{
+    flex: 1;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.info-cards:hover{
+    transform: scale(1.1);
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+
+/* .info-cards:not(:last-child){
+    margin-right: 10px;
+} */
+
+/* .info-selected{
+    background: ;
+} */
+
+
